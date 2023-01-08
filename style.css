@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1600px;
+  margin: auto;
+  /* background-color: #101010; */
+  font-family: "Heebo", sans-serif;
+
+  font-family: "Indie Flower", cursive;
+
+  font-family: "Lobster", cursive;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+section {
+  width: 1240px;
+  margin: auto;
+  padding: 120px 0;
+}
+/* My primary style */
+.my-pera {
+  font-size: 25px;
+  padding: 0 200px;
+  margin-bottom: 29px;
+}
+/*  */
+/* Header navbar style */
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5dc7cc;
+  padding: 22px 0;
+}
+.menu ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 23px;
+  color: #ffe5e5;
+}
+/* Header style */
+.header-banner {
+  background-image: url("./asset/image/background.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+.header-banner::after {
+  content: ();
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #9796f0,
+    #fbc7d4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  opacity: 0.4;
+}
+.header-content {
+  text-align: center;
+  z-index: 1;
+}
+.header-title {
+  font-size: 96px;
+  margin-bottom: 21px;
+  line-height: 123px;
+}
+.digital {
+  color: rgb(184, 9, 9);
+}
+.my-btn {
+  padding: 22px 48px;
+  margin: 0 10px;
+  font-size: 23px;
+  border: navajowhite;
+}
+.btn-1 {
+  color: #ffff;
+  background-color: rgb(184, 9, 9);
+}
+/*  */
+/*  */
+main {
+  background-color: #101010;
+}
+/* Service style */
+.service {
+  background-image: url("./asset/image/footer-bg.png");
+}
+.service-ceo-details {
+  display: flex;
+  gap: 86px;
+  align-items: center;
+}
+.service-details.my-pera {
+  padding: 0;
+}
+.service-content {
+  color: #ffff;
+}
+.service-button {
+  padding: 22px 49px;
+  border: none;
+  border-radius: 54px;
+  font-size: 25px;
+}
+.service-title {
+  font-size: 62px;
+}
+.service-list {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.ceo-profile {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  margin: 20px 0;
+}
+.ceo-profile img {
+  border-radius: 51%;
+  width: 84px;
+}
+.ceo-button {
+  padding: 20px 51px;
+  font-size: 21px;
+  border-radius: 52px;
+  border: none;
+}
+.detail-button {
+  border-left: 1px solid red;
+  padding-left: 29px;
+}
+
+.service-card img {
+  width: 100px;
+  text-align: center;
+}
+.service {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+.service-cards {
+  display: flex;
+  gap: 14px;
+}
+.service-card {
+  padding: 40px;
+  border: 4px solid #423838;
+  margin-bottom: 11px;
+  height: 208px;
+  width: 163px;
+  text-align: center;
+  background-color: #fff;
+}
+/*  */
