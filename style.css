@@ -14,7 +14,7 @@ body {
 
   font-family: "Red Hat Display", sans-serif;
 }
-section {
+.container {
   width: 1240px;
   margin: auto;
   padding: 120px 0;
@@ -89,7 +89,7 @@ header nav {
 }
 /*  */
 /*  */
-main {
+.dark-bg {
   background-color: #101010;
 }
 /* Service style */
