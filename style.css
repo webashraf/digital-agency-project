@@ -44,7 +44,7 @@ header nav {
 /* Header style */
 .header-banner {
   background-image: url("./asset/image/background.jpg");
-  height: 100vh;
+  height: 800px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
