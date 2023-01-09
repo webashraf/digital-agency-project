@@ -114,7 +114,8 @@ header nav {
   font-size: 25px;
 }
 .service-title {
-  font-size: 62px;
+  font-size: 46px;
+  margin: 18px 0;
 }
 .service-list {
   font-size: 24px;
@@ -164,4 +165,85 @@ header nav {
   text-align: center;
   background-color: #fff;
 }
+/*  */
+/* Call to action style */
+.call-to-action-container.container {
+  background-color: #f93232;
+  padding: 72px 38px;
+  box-sizing: border-box;
+  position: relative;
+  top: -63px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.call-to-action-container.container .phone img {
+  width: 80px;
+}
+.phone {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  color: #ffff;
+  border-right: 1px solid gray;
+  padding-right: 28px;
+}
+.phone-text p {
+  font-size: 15px;
+}
+.phone-text h4 {
+  font-size: 18px;
+}
+.action-text p {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.action-text button {
+  padding: 13px 33px;
+  border: none;
+  border-radius: 20px;
+  width: 225px;
+}
+.action-text {
+  display: flex;
+  align-items: center;
+}
+/*  */
+
+/* Blog style */
+.blog-container {
+  text-align: center;
+}
+.blog-title {
+  font-size: 51px;
+  margin-bottom: 12px;
+}
+.my-pera {
+  padding: 0 295px;
+}
+
+/* blog cart style */
+.blog-cart-box {
+  display: flex;
+  gap: 33px;
+}
+
+.blog-cart-itmes {
+  width: 27%;
+  margin: auto;
+  border: 1px solid;
+  padding-bottom: 30px;
+  border-radius: 9px;
+  box-shadow: 7px 9px 25px black;
+  overflow: hidden;
+}
+.blog-cart-itmes img {
+  width: 100%;
+}
+.blog-cart-title {
+  margin: 12px 0;
+}
+/*  */
 /*  */
