@@ -147,6 +147,9 @@ header nav {
   width: 100px;
   text-align: center;
 }
+.service-card h4 {
+  margin-top: 18px;
+}
 .service {
   display: flex;
   align-items: center;
@@ -217,8 +220,11 @@ header nav {
   text-align: center;
 }
 .blog-title {
-  font-size: 51px;
+  font-size: 60px;
   margin-bottom: 12px;
+}
+.blog-container .my-pera {
+  margin: 43px 0 112px 0;
 }
 .my-pera {
   padding: 0 295px;
@@ -243,12 +249,13 @@ header nav {
 .blog-cart-title {
   margin: 12px 0;
 }
+
 /*  */
 /*  */
 
 /* Footer style */
 footer {
-  padding: 191px 0;
+  padding: 90px 0;
   background-image: linear-gradient(to bottom, black, #111010b8),
     url(./asset/image/footer-bg.png);
   margin-top: 140px;
@@ -281,6 +288,7 @@ footer {
 .footer-p {
   color: #ffff;
   margin-bottom: 9px;
+  margin: 20px 0 18px 0;
 }
 .footer-logo-content a {
   color: #fff;
